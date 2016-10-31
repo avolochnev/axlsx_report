@@ -301,7 +301,7 @@ module AxlsxReport
 
     def total_actions
       @total_actions ||=
-        columns.map(&:options).each do |ops|
+        columns.map(&:options).map do |ops|
           ops[:total]
         end
     end
