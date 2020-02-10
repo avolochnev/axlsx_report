@@ -1,6 +1,6 @@
 # AxlsxReport
 
-Declarative excel reports based on [axlsx](https://github.com/randym/axlsx).
+Declarative excel reports based on [axlsx](https://github.com/caxlsx/caxlsx).
 
 ## Installation
 
