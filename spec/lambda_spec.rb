@@ -10,7 +10,7 @@ describe LambdaReport do
   end
 
  it 'use lambda to calculate value' do
-    expect(xlsx.sheet(0).cell('B', 6)).to eq true
-    expect(xlsx.sheet(0).cell('C', 6)).to eq false
+    expect(xlsx.sheet(0).cell('B', 6)).to eq "TRUE"
+    expect(xlsx.sheet(0).cell('C', 6)).to eq "FALSE"
   end
 end
